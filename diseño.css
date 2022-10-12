@@ -1,9 +1,10 @@
 .Fondo {
-   background-size: cover;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
    width: 100%;
+
 }
 
 .nav  {
@@ -27,7 +28,7 @@
 #logo   {
   margin-right: auto;
 }
-.Titulo1  {
+.display-3  {
   text-align: left;
   position: absolute;
   color: #F0DFFC;
@@ -42,18 +43,18 @@
 .fondo-color {  
   background-color: #F1F1E6;
 }
-.Imagenes   {
+.row {
   
   padding: 10px;
   background-color: #F1F1E6 ;
   flex-grow: 1;
   justify-content: center; 
 }
-#img1{   
+#col{   
   transform: scale(.9);
   transition: 1s linear;
 }
-.img1:hover{  
+.col:hover{  
   transform: scale(.9);
   transition: 1s linear;
 }
@@ -75,12 +76,12 @@
 }
 
   @media (max-width:600px)  {
-    .Imagenes { 
+    .row { 
       display: block; 
     }  
   }             
   @media (min-width:600px)  {
-    .Imagenes { 
+    .row { 
       display: flex; 
     }  
   }             
